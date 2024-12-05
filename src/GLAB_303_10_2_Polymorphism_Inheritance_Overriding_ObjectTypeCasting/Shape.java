@@ -1,4 +1,25 @@
 package GLAB_303_10_2_Polymorphism_Inheritance_Overriding_ObjectTypeCasting;
+
+/**
+ * By the end of this lab, learners will be able to use Polymorphism
+ * concepts using Inheritance, Encapsulation, and instanceOF objects.
+ *
+ * One of the key features of Inheritance is that a reference
+ * variable (Object) of a superclass type can point to an object of
+ * its subclass. Polymorphism is the art of taking advantage of this
+ * simple but powerful and versatile feature.
+ */
+
+/**
+ * Consider the following illustration:
+ * Suppose that our program uses many kinds of Shapes,
+ * such as triangles, rectangles, and so on. We should design
+ * a superclass called Shape, which defines the public
+ * (common) behaviors of all the shapes.
+ * For example, we would like all shapes to have a method
+ * called getArea(), which returns the area of that particular
+ * shape.
+ */
 //Shape is a parent class
 public class Shape {
     private String color;
